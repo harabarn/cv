@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Barnabas Harangi CV</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css"/>
+<!--  <script src="main.js"></script>  -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+ <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"> 
+</head>
+<body>
+<script>
+$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 50});   
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#myNavbar a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+</script>
+<nav id="mainNavbar" class="navbar navbar-inverse navbar-fixed-top">
+
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navigation">
+		<li class=""><a href="#aboutme">About Me</a></li>
+		<li><a href="#education">Education</a></li>
+		<li><a href="#skills">Skills</a></li>
+		<li><a href="#experience">Experience</a></li>
+       </ul>
+      <ul class="nav navbar-nav navbar-right">
+      </ul>
+    </div>
+	</div>
+</nav>
+
+<div id="pageheader">
+<div class="container">   
+  <div class="row">
+    <div class="col-sm-5">			 
+		 <h1 class="name">Barnabas Harangi</h1>
+		 <h4 class="profession">web developer and designer</h4>
+	</div>
+       <div class="col-sm-7">			 
+		<div class="header-list">
+			<ul style="list-style-type:none">
+				<li><span class="glyphicon glyphicon-earphone"></span> Phone: +353894135089</li>
+					<li><span class="glyphicon glyphicon-envelope"></span> Email: barnabasharangi@yahoo.com</li>
+					<li><span class="glyphicon glyphicon-globe"></span> Website: www.bh.com</li>
+                    <li><span class="glyphicon glyphicon-map-marker"></span> Location: Dublin, Ireland</li>
+					</ul>
+        </div>
+		</div>
+  </div>
+</div>
+</div>
+
+<div id="aboutme">
+	<div class="container">  
+		<div class="row">
+			<div class="col-sm-12,">	
+				<div class="headerDiv"><h1>About Me</h1> </div>
+				<div class="container">  
+					<div class="row">	           
+						<div class="col-sm-12">				
+							<p>A professional IT and business specialist with experience using a wide range of technical
+							skills   including   PHP,   MySQL,   HTML,   CSS.     Highly   knowledgeable   about   using   and   developing
+							frameworks   such   as   content   management   systems,   qualified   in   Business   Management   and   Software
+							development with passionate about programming seeking for a position as an entry level Web developer.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+</div>
+
+<div id="education">
+	<div class="container">  
+		<div class="row">
+			<div class="col-sm-12,">	
+				<div class="headerDiv"><h1>Education</h1> </div>
+				<div class="container">  
+					<div class="row">	           
+						<div class="col-sm-2">				
+							<div class="date">2012 - 2013</div>
+						</div>
+						<div class="col-sm-10"> 				
+							<div class="head-title">Karrier Education Center (Hungary)</div>
+							<div class="title">Diploma in Software development</div>
+							<div class="description">Modules: HTML/HTML5, CSS/CSS3, PHP, MYSQL, JAVASCRIPT, JQUERY</div>
+            			</div>
+						<div class="col-sm-2">				
+							<div class="date">2008 - 2012</div>
+						</div>
+						<div class="col-sm-10"> 				
+							<div class="head-title">Corvinus University of Budapest (Hungary)</div>
+							<div class="title">BA Degree in Management and Business Administration</div>
+							<div class="description">Thesis: Internet based options against the negative effect of the economic crisis</div>
+            			</div>
+						<div class="col-sm-2">				
+							<div class="date">2008</div>
+						</div>
+						<div class="col-sm-10"> 				
+							<div class="head-title">College of Management and IT (Ireland)</div>
+							<div class="title">Business Finance</div>
+						</div> 
+			             <div class="col-sm-2">				
+							<div class="date">2007</div>
+						</div>
+						<div class="col-sm-10"> 				
+							<div class="head-title">Ballsbridge College of Futhure Education (Ireland)</div>
+							<div class="title">Adobe Photoshop Training Course</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+       	</div>
+	</div>
+</div>
+
+<div id="skills">
+	<div class="container">  
+		<div class="row">
+			<div class="col-sm-12,">	
+				<div class="headerDiv"><button type="button" class="btn btn-primary btn-lg">IT Skills</button> </div>
+				<div class="container">  
+					<div class="row">	           
+						
+						<div class="col-sm-12"> 				
+							<div class="head-title">Web Development:</div>
+							<div class="title">Working knowledge of developing web pages and e-commerce systems (HTML5, CSS3, 
+							JAVASCRIPT, JQUERY, PHP,  MYSQL, ADOBE DREAMWEAVER, ADOBE PHOTOSHOP, 
+								ADOBE ILLUSTRATOR, DRUPAL, WORDPRESS, BOOTSTRAP)</div>
+							
+            			</div>
+						<div class="col-sm-12"> 				
+							<div class="head-title">Hardware:</div>
+							<div class="title">Desktops / Laptops / Printers (Assemble, upgrade, fix, maintenance)</div>
+						</div>
+						<div class="col-sm-12"> 				
+							<div class="head-title">Software (General):</div>
+							<div class="title">Excellent knowledge of all Microsoft Office tools including Excel, Word & Outlook, PowerPoint 
+								as well as Sage line 50 </div>
+						</div>
+						<div class="col-sm-12"> 				
+							<div class="head-title">Operation Systems:</div>
+							<div class="title">Usage, installation, upgrading, maintaining all Microsoft O.S. (Windows 95 / 98 / Me / 2000 / XP / Vista / 7 / 8)</div>
+						</div>
+			             <div class="col-sm-12"> 				
+							<div class="head-title">Networks:</div>
+							<div class="title">Building and troubleshoting home or small and medium size office computer networks</div>
+						</div>
+						 
+					</div>
+		
+				</div>
+			</div>
+       
+		</div>
+	</div>
+</div>
+ 
+<div id="experience">
+	<div class="container">  
+		<div class="row">
+			<div class="col-sm-12,">	
+				<div class="headerDiv"><button type="button" class="btn btn-primary btn-lg">Professional Experience</button>  </div>
+				<div class="container">  
+					<div class="row">	           
+						<div class="col-sm-2">				
+							<div class="date">2013 – 2016</div>
+						</div>
+						<div class="col-sm-10"> 				
+							<div class="head-title">Microsoft Multilingual Technical Support Professional (Ireland) </div>
+							<div class="title">Stream Global Services – Convergys (world-class customer management firm)</div>
+							<div class="description">
+							<ul class="list">
+								<li>Provided effective and efficient first-line technical support for basic or routine incoming 
+									Billing, Networking, Hardware, Software inquiries for Microsoft customers </li>
+								<li>Delivered accurate customer support with a high degree of customer service satisfaction</li>
+								<li>Addressed customer concerns using conflict resolution skills</li>
+								<li>Trained and coached employees to to reach targets</li>
+								<li>Prioritized personal schedule ensuring adherence to deadlines and completion of tasks </li>
+							</ul>
+							</div>
+            			</div>
+						<div class="col-sm-2">				
+							<div class="date">2012</div>
+						</div>
+						<div class="col-sm-10"> 				
+							<div class="head-title">IT Support Engineer - Web developer (Hungary)</div>
+							<div class="title">Buda Forest Ltd (Building materials, interior design/furnishing store)</div>
+							<div class="description">
+							<ul class="list">
+								<li>Website maintenance</li>
+								<li>Detecting and solving IT problems</li>
+								<li>Marketing and information technology coordination</li>
+								<li>Developed cost reduction solutions and efficient income streams</li>
+                    		</ul>
+							</div>
+            			</div>						
+			            <div class="col-sm-2">				
+							<div class="date">2009-2011</div>
+						</div>
+						<div class="col-sm-10"> 				
+							<div class="head-title">Management and IT Assistant (Hungary)</div>
+							<div class="title">Sushirendeles.hu (Japanese food home delivery company</div>
+							<div class="description">
+							<ul class="list">
+								<li>Contacted suppliers to order various materials, reaserching, negotiating best prices</li>
+								<li>Monitored bank statements, raised invoices, issued PO-s</li>
+								<li>Developed, updated the company website</li>
+								<li>Looked after credit control to achieve aged debt target</li>
+								<li>Generated and presented weekly, monthly and quarterly reports to Management</li>
+								<li>Created various documents and procedures for submission to audit</li>
+							</ul>
+							</div>
+            			</div> 
+						 <div class="col-sm-2">				
+							<div class="date">2007-2008</div>
+						</div>
+						<div class="col-sm-10"> 				
+							<div class="head-title">Freelancer Web Developer and IT Supporter (Ireland)</div>
+							<div class="title">Jesmond Corporate Gifts Ireland Ltd</div>
+							<div class="description">
+							<ul class="list">
+								<li>Designed and maintained websites for the company</li>
+								<li>Responsible for online marketing and search engine optimisation </li>
+								<li>Planned and improved the security of the company computers</li>
+								<li>Repaired servers and personal computers, installed operation systems and office 
+									programmes, setted up programs for use</li>
+								<li>Explored and developed concepts for profits and effficiency by using internet based 
+									solutions</li>
+							</ul>
+							</div>
+            			</div>
+						<div class="col-sm-2">				
+							<div class="date">2005-2007</div>
+						</div>
+						<div class="col-sm-10"> 				
+							<div class="head-title">Marketing and event Manager (Hungary)</div>
+							<div class="title">MySushi Catering (Japanese restaurant)</div>
+							<div class="description">
+							<ul class="list">
+								<li>Responsible for all the publicity and marketing of the company</li>
+								<li>Maintained and developed the company web store </li>
+								<li>Updated website and managed online marketing tools</li>
+								<li>Increased traffic to the website of the company with online marketing solutions</li>
+								<li>Compiled accurate statistics on sales and marketing trends and published monthly reports</li>
+								<li>Generated quoatations and dealt with both potential and existing customers with a 
+									professional manner</li>
+								<li>Planned and managed various online and offline events and promotions</li>
+							</ul>
+							</div>
+            			</div>
+					</div>
+		
+				</div>
+			</div>
+       
+		</div>
+	</div>
+</div>
+
+<div id="footer">
+<div class="container">  
+  <div class="row">
+    <div class="col-sm-5">	
+		 </br></br>
+		 <p>Barnabas Harangi © 2016</p>
+		 </br>
+    </div>
+	<div class="col-sm-7"></div>
+</div>
+</div>
+</div>
+</body>
+</html>

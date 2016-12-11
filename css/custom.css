@@ -22,6 +22,10 @@
     border-left: 2px solid #ffffff;
 }
 
+a:link, a:visited {
+    color: #D3E7F2;
+}
+
 #aboutme{
 	 background-color:#D3E7F2;
     width: 100%;
